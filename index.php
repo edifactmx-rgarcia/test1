@@ -9,5 +9,8 @@
 	<?= 'Hello World!' ?>
 	<br/>
 	<?= 'This is a second message' ?>
+	<p>
+		<a href="url-example.php">Ir a la segunda página</a>
+	</p>
 </body>
 </html>
