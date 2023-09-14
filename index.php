@@ -12,5 +12,8 @@
 	<p>
 		<a href="url-example.php">Ir a la segunda página</a>
 	</p>
+	<p>
+		<?php include_once('complemento-pagos.php'); ?>
+	</p>
 </body>
 </html>
