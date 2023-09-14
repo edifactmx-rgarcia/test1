@@ -13,7 +13,18 @@
 		<a href="url-example.php">Ir a la segunda página</a>
 	</p>
 	<p>
-		<?php include_once('complemento-pagos.php'); ?>
+		<?php 
+		if (file_exists('complemento-pagos.php')) {
+			include_once('complemento-pagos.php'); 
+		}
+		?>
+	</p>
+	<p>
+		<?php 
+		if (file_exists('complemento-donatarias.php')) {
+			include_once('complemento-donatarias.php'); 
+		}
+		?>
 	</p>
 </body>
 </html>
