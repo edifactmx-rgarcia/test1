@@ -7,5 +7,7 @@
 </head>
 <body>
 	<?= 'Hello World!' ?>
+	<br/>
+	<?= 'This is a second message' ?>
 </body>
 </html>
